@@ -34,7 +34,14 @@ wx.hideLoading()
   })
 },
 
+//提交数据
+btnSub(res){
+  var{user_name,role}=res.detail.value;
 
+
+
+  console.log(res)
+},
 
   /**
    * 生命周期函数--监听页面加载
